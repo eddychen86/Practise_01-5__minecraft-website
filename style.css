@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  position: relative;
+  /* border:.5px solid; */
+}
+
+.container {
+  border: 1px solid aqua;
+}
+.row {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+#banner {
+  background-image: url('./img/title-Bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#banner .title {
+  font-size: 5rem;
+}
+
+#news table {
+  width: 100%;
+}
+#news tr {
+  transition: 0.3s;
+}
+#news tr:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+#feature {
+  background-color: rgb(232, 232, 232);
+}
+#feature .para {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  height: 200px;
+  max-height: 100%;
+}
+#feature .featureBg-1 {
+  background-image: url('./img/feature-Bg-01.png');
+}
+#feature .featureBg-2 {
+  background-image: url('./img/feature-Bg-02.png');
+}
+#feature .featureBg-3 {
+  background-image: url('./img/feature-Bg-03.png');
+}
+
+#info * {
+  /* border: 1px solid; */
+}
+#info .fa-brands {
+  font-size: 100px;
+}
+#info .fa-facebook {
+  color: rgb(0, 106, 255);
+}
+#info .fa-discord {
+  color: rgb(61, 43, 255);
+}
+
+footer {
+  background-image: url('img/footer-Bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
