@@ -1,3 +1,6 @@
+/* ------------------ *\
+      TODO: Global
+\* ------------------ */
 * {
   box-sizing: border-box;
   position: relative;
@@ -5,7 +8,8 @@
 }
 
 .container {
-  border: 1px solid aqua;
+  /* border-left: 1px solid aqua;
+  border-right: 1px solid aqua; */
 }
 .row {
   padding: 0;
@@ -18,6 +22,58 @@ a {
   text-decoration: none;
 }
 
+nav .nav-item:after {
+  content: '';
+  width: 0%;
+  height: 4px;
+  background-color: yellow;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  transition: all 0.2s ease-out;
+}
+nav .nav-item:hover.nav-item:after {
+  width: 100%;
+}
+.infoPage {
+  position: absolute;
+  z-index: 10;
+  top: -30%;
+  left: 50%;
+  transform: translate(-50%,0%);
+  background-color: #fff;
+}
+.card {
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.3) !important;
+}
+
+@media screen and (max-width: 992px) {
+  nav .nav-item:hover.nav-item:after {
+    width: 15% !important;
+  }
+
+  .infoPage {
+    position: relative !important;
+    z-index: 0 !important;
+    top: 0 !important;
+    left: 0 !important;
+    transform: translate(0%) !important;
+  }
+
+  #aboutBg, #realCartBg, #NFTCartBg {
+    height: 30vh !important;
+  }
+
+  #about, #realCart, #NFTCart {
+    height: auto !important;
+  }
+}
+
+/* ------------------ *\
+      TODO: index
+\* ------------------ */
 #banner {
   background-image: url('./img/title-Bg.png');
   background-repeat: no-repeat;
@@ -73,6 +129,69 @@ a {
   color: rgb(61, 43, 255);
 }
 
+/* ------------------ *\
+      TODO: About
+\* ------------------ */
+#aboutMain {
+  background-color: rgb(232, 232, 232);
+}
+#aboutBg {
+  background-image: url('./img/2022-04-22_02.45.39.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+#about {
+  height: 50vh;
+}
+
+/* ------------------ *\
+    TODO: Real Cart
+\* ------------------ */
+#realCartMain {
+  background-color: rgb(232, 232, 232);
+}
+#realCartBg {
+  background-image: url('./img/2022-04-22_02.32.36.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+#realCart {
+  height: 55vh;
+}
+#realCart .col {
+  display: flex;
+  justify-content: center;
+}
+
+/* ------------------ *\
+    TODO: NFT Cart
+\* ------------------ */
+#NFTCartMain {
+  background-color: rgb(232, 232, 232);
+}
+#NFTCartBg {
+  background-image: url('./img/2022-04-22_02.32.36.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+#NFTCart {
+  height: 55vh;
+}
+#NFTCart .col {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* ------------------ *\
+      TODO: footer
+\* ------------------ */
 footer {
   background-image: url('img/footer-Bg.png');
   background-repeat: no-repeat;
