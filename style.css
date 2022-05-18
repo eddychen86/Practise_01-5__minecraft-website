@@ -43,7 +43,7 @@ nav .nav-item:hover.nav-item:after {
 .infoPage {
   position: absolute;
   z-index: 10;
-  top: -30%;
+  top: -15%;
   left: 50%;
   transform: translate(-50%,0%);
   background-color: #fff;
@@ -66,11 +66,11 @@ nav .nav-item:hover.nav-item:after {
     transform: translate(0%) !important;
   }
 
-  #aboutBg, #realCartBg, #NFTCartBg {
+  #aboutBg, #realCartBg, #NFTCartBg, #productBg {
     height: 20vh !important;
   }
 
-  #about, #realCart, #NFTCart {
+  #about, #realCart, #NFTCart, #product {
     height: auto !important;
   }
 }
@@ -147,7 +147,7 @@ nav .nav-item:hover.nav-item:after {
   height: 50vh;
 }
 #about {
-  height: 50vh;
+  height: 100vh;
 }
 
 /* ------------------ *\
@@ -164,7 +164,7 @@ nav .nav-item:hover.nav-item:after {
   height: 50vh;
 }
 #realCart {
-  height: 55vh;
+  height: 100vh;
 }
 #realCart .col {
   display: flex;
@@ -185,13 +185,29 @@ nav .nav-item:hover.nav-item:after {
   height: 50vh;
 }
 #NFTCart {
-  height: 55vh;
+  height: 100vh;
 }
 #NFTCart .col {
   display: flex;
   justify-content: center;
 }
 
+/* ------------------ *\
+    TODO: product
+\* ------------------ */
+#productMain {
+  background-color: rgb(232, 232, 232);
+}
+#productBg {
+  background-image: url('./img/2022-04-22_02.33.39.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+#product {
+  height: 100vh;
+}
 
 /* ------------------ *\
       TODO: footer
