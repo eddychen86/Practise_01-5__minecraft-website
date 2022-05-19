@@ -25,10 +25,7 @@ a {
 a:hover {
   color: black;
 }
-.navbar {
-  position: sticky;
-  top: 0;
-}
+
 nav .nav-item:after {
   content: '';
   width: 0%;

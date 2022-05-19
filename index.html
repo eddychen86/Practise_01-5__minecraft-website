@@ -1,220 +1,244 @@
 <!doctype html>
 <html lang="">
-  <head>
-    <title>2022麥塊建築大賽</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS v5.0.2 -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<head>
+  <title>2022麥塊建築大賽</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- fontawsome -->
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css' integrity='sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==' crossorigin='anonymous'/>
+  <!-- Bootstrap CSS v5.0.2 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <!-- TODO: css -->
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <!-- TODO: navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container-fluid">
-        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-          <ul class="navbar-nav fs-5">
-            <li class="nav-item px-3 mx-2">
-              <a class="nav-link text-center active" href="#">首頁</a>
-            </li>
-            <li class="nav-item px-3 mx-2">
-              <a class="nav-link text-center" href="about.html">關於</a>
-            </li>
-            <li class="nav-item px-3 mx-2">
-              <a class="nav-link text-center" href="real-cart.html">比賽周邊</a>
-            </li>
-            <li class="nav-item px-3 mx-2">
-              <a class="nav-link text-center" href="NFT-cart.html">元宇宙商圈</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+  <!-- fontawsome -->
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css'
+    integrity='sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=='
+    crossorigin='anonymous' />
 
-    <!-- TODO: main -->
-    <main>
+  <!-- TODO: css -->
+  <link rel="stylesheet" href="style.css">
 
+</head>
+
+<body>
+  <!-- TODO: top Header -->
       <!-- TODO: banner -->
+  <div class="top-header">
       <div id="banner" class="vh-100">
         <div id="bannerBody" class="container p-5 h-100">
           <div class="title pt-5 text-center text-white fw-bold">2022麥塊建築大賽</div>
-          <img class="serverImg px-5 img-fluid position-absolute bottom-0 start-0" src="./img/serverImg.png" width="100%"></img>
+          <img class="serverImg px-5 img-fluid position-absolute bottom-0 start-0" src="./img/serverImg.png"
+            width="100%"></img>
+        </div>
+      </div>
+  </div>
+  <!-- TODO: navbar -->
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav fs-5">
+          <li class="nav-item px-3 mx-2">
+            <a class="nav-link text-center active" href="#">首頁</a>
+          </li>
+          <li class="nav-item px-3 mx-2">
+            <a class="nav-link text-center" href="about.html">關於</a>
+          </li>
+          <li class="nav-item px-3 mx-2">
+            <a class="nav-link text-center" href="real-cart.html">比賽周邊</a>
+          </li>
+          <li class="nav-item px-3 mx-2">
+            <a class="nav-link text-center" href="NFT-cart.html">元宇宙商圈</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- TODO: main -->
+  <main>
+
+    <!-- TODO: body -->
+    <section>
+
+      <!-- TODO: news -->
+      <div id="news" class="container p-5 overflow-hidden">
+        <div class="title text-center fs-1">最新消息</div>
+        <table class="mt-3">
+          <tbody>
+            <tr>
+              <td class="my-2 d-flex align-items-center px-3 overflow-hidden w-100">
+                <div class="date px-3 py-1 rounded-pill bg-primary text-light">4/20</div>
+                <div class="subtitle ps-3 d-inline-block text-truncate">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia facere numquam sequi tempore unde
+                  ratione!
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="my-2 d-flex align-items-center px-3 overflow-hidden w-100">
+                <div class="date px-3 py-1 rounded-pill bg-primary text-light">4/20</div>
+                <div class="subtitle ps-3 d-inline-block text-truncate">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia facere numquam sequi tempore unde
+                  ratione!
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="my-2 d-flex align-items-center px-3 overflow-hidden w-100">
+                <div class="date px-3 py-1 rounded-pill bg-primary text-light">4/20</div>
+                <div class="subtitle ps-3 d-inline-block text-truncate">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia facere numquam sequi tempore unde
+                  ratione!
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="my-2 d-flex align-items-center px-3 overflow-hidden w-100">
+                <div class="date px-3 py-1 rounded-pill bg-primary text-light">4/20</div>
+                <div class="subtitle ps-3 d-inline-block text-truncate">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia facere numquam sequi tempore unde
+                  ratione!
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- TODO: feature -->
+      <div id="feature">
+        <div class="container p-5">
+          <div class="row text-light text-center fw-bold fs-3">
+            <div
+              class="col-md-4 col-sm-12 px-md-3 px-sm-0 py-5 d-flex flex-column justify-content-between overflow-hidden">
+              <div class="d-flex align-items-center justify-content-center">
+                <img class="img-fluid" src="./img/feature-Img-01.png" width="70%">
+              </div>
+              <div class="para featureBg-1 mt-3 d-flex align-items-center justify-content-center">時而生存、時而創造</div>
+            </div>
+            <div
+              class="col-md-4 col-sm-12 px-md-3 px-sm-0 py-5 d-flex flex-column justify-content-between overflow-hidden">
+              <div class="d-flex align-items-center justify-content-center">
+                <img class="img-fluid" src="./img/feature-Img-02.png" width="70%">
+              </div>
+              <div class="para featureBg-2 mt-3 d-flex align-items-center justify-content-center">耐人尋味的關卡</div>
+            </div>
+            <div
+              class="col-md-4 col-sm-12 px-md-3 px-sm-0 py-5 d-flex flex-column justify-content-between overflow-hidden">
+              <div class="d-flex align-items-center justify-content-center">
+                <img class="img-fluid" src="./img/feature-Img-03.png" width="70%">
+              </div>
+              <div class="para featureBg-3 mt-3 d-flex align-items-center justify-content-center">想蓋自己的小天地？<br>那就蓋吧！
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
-      <!-- TODO: body -->
-      <section>
-
-        <!-- TODO: news -->
-        <div id="news" class="container p-5 overflow-hidden">
-          <div class="title text-center fs-1">最新消息</div>
-          <table class="mt-3">
-            <tbody>
-              <tr>
-                <td class="my-2 d-flex align-items-center px-3 overflow-hidden w-100">
-                  <div class="date px-3 py-1 rounded-pill bg-primary text-light">4/20</div>
-                  <div class="subtitle ps-3 d-inline-block text-truncate">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia facere numquam sequi tempore unde ratione!
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td class="my-2 d-flex align-items-center px-3 overflow-hidden w-100">
-                  <div class="date px-3 py-1 rounded-pill bg-primary text-light">4/20</div>
-                  <div class="subtitle ps-3 d-inline-block text-truncate">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia facere numquam sequi tempore unde ratione!
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td class="my-2 d-flex align-items-center px-3 overflow-hidden w-100">
-                  <div class="date px-3 py-1 rounded-pill bg-primary text-light">4/20</div>
-                  <div class="subtitle ps-3 d-inline-block text-truncate">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia facere numquam sequi tempore unde ratione!
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td class="my-2 d-flex align-items-center px-3 overflow-hidden w-100">
-                  <div class="date px-3 py-1 rounded-pill bg-primary text-light">4/20</div>
-                  <div class="subtitle ps-3 d-inline-block text-truncate">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia facere numquam sequi tempore unde ratione!
-                  </div>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
-        <!-- TODO: feature -->
-        <div id="feature">
-          <div class="container p-5">
-            <div class="row text-light text-center fw-bold fs-3">
-              <div class="col-md-4 col-sm-12 px-md-3 px-sm-0 py-5 d-flex flex-column justify-content-between overflow-hidden">
-                <div class="d-flex align-items-center justify-content-center">
-                  <img class="img-fluid" src="./img/feature-Img-01.png" width="70%">
-                </div>
-                <div class="para featureBg-1 mt-3 d-flex align-items-center justify-content-center">時而生存、時而創造</div>
-              </div>
-              <div class="col-md-4 col-sm-12 px-md-3 px-sm-0 py-5 d-flex flex-column justify-content-between overflow-hidden">
-                <div class="d-flex align-items-center justify-content-center">
-                  <img class="img-fluid" src="./img/feature-Img-02.png" width="70%">
-                </div>
-                <div class="para featureBg-2 mt-3 d-flex align-items-center justify-content-center">耐人尋味的關卡</div>
-              </div>
-              <div class="col-md-4 col-sm-12 px-md-3 px-sm-0 py-5 d-flex flex-column justify-content-between overflow-hidden">
-                <div class="d-flex align-items-center justify-content-center">
-                  <img class="img-fluid" src="./img/feature-Img-03.png" width="70%">
-                </div>
-                <div class="para featureBg-3 mt-3 d-flex align-items-center justify-content-center">想蓋自己的小天地？<br>那就蓋吧！</div>
-              </div>
-            </div>
+      <!-- TODO: info -->
+      <div id="info" class="container p-5">
+        <div class="row fw-bold">
+          <div class="col-md-6 col-sm-12 row text-center mb-5">
+            <div class="title mb-5 text-center fs-1">社群平台</div>
+            <a href="#" class="col-6">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="#" class="col-6">
+              <i class="fa-brands fa-discord"></i>
+            </a>
+          </div>
+          <div class="col-md-6 col-sm-12 row text-center mb-5">
+            <div class="title mb-5 text-center fs-1">合作夥伴</div>
+            <a class="col-6">
+              <img src="/img/icon-sce.png" alt="文化大學進修部" class="img-fiuid w-50">
+            </a>
+            <a class="col-6 d-flex align-items-center justify-content-center">
+              <img src="/img/icon-app.png" alt="程式驅動" class="img-fiuid w-50">
+            </a>
           </div>
         </div>
+      </div>
 
-        <!-- TODO: info -->
-        <div id="info" class="container p-5">
-          <div class="row fw-bold">
-            <div class="col-md-6 col-sm-12 row text-center mb-5">
-              <div class="title mb-5 text-center fs-1">社群平台</div>
-              <a href="#" class="col-6">
-                <i class="fa-brands fa-facebook"></i>
-              </a>
-              <a href="#" class="col-6">
-                <i class="fa-brands fa-discord"></i>
-              </a>
-            </div>
-            <div class="col-md-6 col-sm-12 row text-center mb-5">
-              <div class="title mb-5 text-center fs-1">合作夥伴</div>
-              <a class="col-6">
-                <img src="/img/icon-sce.png" alt="文化大學進修部" class="img-fiuid w-50">
-              </a>
-              <a class="col-6 d-flex align-items-center justify-content-center">
-                <img src="/img/icon-app.png" alt="程式驅動" class="img-fiuid w-50">
-              </a>
-            </div>
+      <!-- TODO: server -->
+      <div id="server">
+        <div class="container p-5 pt-0">
+          <div class="d-flex flex-column justify-content-center">
+            <div class="text-center mb-5 fs-1 fw-bold">伺服器狀態</div>
+            <a href="https://minecraft-mp.com/server-s303741" target="_blank">
+              <img src="https://minecraft-mp.com/banner-303741-3.png" class="w-100">
+            </a>
           </div>
         </div>
+      </div>
 
-        <!-- TODO: server -->
-        <div id="server">
-          <div class="container p-5 pt-0">
-            <div class="d-flex flex-column justify-content-center">
-              <div class="text-center mb-5 fs-1 fw-bold">伺服器狀態</div>
-              <a href="https://minecraft-mp.com/server-s303741" target="_blank">
-                <img src="https://minecraft-mp.com/banner-303741-3.png" class="w-100">
-              </a>
-            </div>
-          </div>
-        </div>
+    </section>
 
-      </section>
+  </main>
 
-    </main>
-    
-    <!-- TODO: footer -->
-    <footer>
-      <div class="container p-5">
-        <div class="row text-white">
-          <div class="col-lg-6 col-md-12">
-            <div class="title mb-3 fs-1 fw-bold">比賽場次</div>
-            <ul class="fs-3 p-0">
-              <li>
-                <a href="#" class="text-white">OO場 00/00 舉辦</a>
-              </li>
-              <li>
-                <a href="#" class="text-white">OO場 00/00 舉辦</a>
-              </li>
-              <li>
-                <a href="#" class="text-white">OO場 00/00 舉辦</a>
-              </li>
-              <li>
-                <a href="#" class="text-white">OO場 00/00 舉辦</a>
-              </li>
+  <!-- TODO: footer -->
+  <footer>
+    <div class="container p-5">
+      <div class="row text-white">
+        <div class="col-lg-6 col-md-12">
+          <div class="title mb-3 fs-1 fw-bold">比賽場次</div>
+          <ul class="fs-3 p-0">
+            <li>
+              <a href="#" class="text-white">OO場 00/00 舉辦</a>
+            </li>
+            <li>
+              <a href="#" class="text-white">OO場 00/00 舉辦</a>
+            </li>
+            <li>
+              <a href="#" class="text-white">OO場 00/00 舉辦</a>
+            </li>
+            <li>
+              <a href="#" class="text-white">OO場 00/00 舉辦</a>
+            </li>
           </ul>
-          </div>
-          <div class="col-lg-6 col-md-12">
-            <div class="title mb-3 fs-1 fw-bold">聯絡資訊</div>
-            <ul class="fs-3 p-0 float-start">
-              <li>
-                <i class="fa-solid fa-phone"></i> 
-                <a href="tel:02-2701-0928" class="text-white">(02) 2701 0928</a>
-                <br>(週一 ~ 週五 12:00 ~ 18:30)
-              </li>
-              <li>
-                <i class="fa-solid fa-envelope"></i> 
-                <a href="mailto:core@codedriven.org" class="text-white">core@codedriven.org</a>
-              </li>
-              <li>
-                <i class="fa-solid fa-location-dot"></i> 
-                <a href="https://goo.gl/maps/4YNKJ7Hi7vQascrq9" class="text-white">台北市大安區復興南路一段360號3樓</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-12 pt-5 fw-normal">
-            <div class="copyright text-center">© 2022 by 程式驅動 | 本站所有素材引用至 Mojang 旗下遊戲 Minecraft</div>
-          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="title mb-3 fs-1 fw-bold">聯絡資訊</div>
+          <ul class="fs-3 p-0 float-start">
+            <li>
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel:02-2701-0928" class="text-white">(02) 2701 0928</a>
+              <br>(週一 ~ 週五 12:00 ~ 18:30)
+            </li>
+            <li>
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:core@codedriven.org" class="text-white">core@codedriven.org</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-location-dot"></i>
+              <a href="https://goo.gl/maps/4YNKJ7Hi7vQascrq9" class="text-white">台北市大安區復興南路一段360號3樓</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 pt-5 fw-normal">
+          <div class="copyright text-center">© 2022 by 程式驅動 | 本站所有素材引用至 Mojang 旗下遊戲 Minecraft</div>
         </div>
       </div>
-    </footer>
+    </div>
+  </footer>
 
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+  </script>
 
-    <!-- Bootstrap JavaScript Libraries -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <!-- Jquery -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'
+    integrity='sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=='
+    crossorigin='anonymous'></script>
 
-    <!-- Jquery -->
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js' integrity='sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==' crossorigin='anonymous'></script>
+</body>
 
-  </body>
 </html>
